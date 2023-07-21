@@ -1,0 +1,32 @@
+body{
+    background-image: url("https://wallpapercave.com/wp/wp7462680.jpg");
+ 
+} 
+.eyes{
+    position:relative;
+    margin-top:150px;
+    margin-right:110px;
+    overflow: hidden;
+}  
+.eye1,.eye2{
+    width:80px;
+    height:80px;
+     border-radius: 50%;
+     border:3px solid black;
+     display: inline-block;
+    justify-content: space-between;
+    margin-right:30px;
+    background-color: white;
+    overflow: hidden;
+
+}
+.ball{
+    width:10px;
+    height:10px;
+     border-radius: 50%;
+     border:3px solid black;
+     position: relative;
+     background-color: black;
+     margin-top: 20px;
+     transform:translate(-50%,-50%);
+}
